@@ -1,0 +1,249 @@
+.editar-perfil input[type=text], 
+.editar-perfil input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+} 
+
+.editar-perfil input[type=file] {
+    display: block;
+    margin: 10px 0;
+    border: 2px dashed #CCC;
+    width: 100%;
+    padding: 10px;
+}
+
+.editar-perfil input[type=submit] {
+    border-radius: 4px;
+    background-color: #22245B;
+    width: 120px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.descricao {
+    font-size: 18px;
+    color: #22245B; 
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.4; 
+}
+
+.perfil-text span {
+    font-size: 24px;
+}
+
+.descricao {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.descricao {
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+
+.editar-perfil input[type=submit]:hover {
+    background-color: #22245B;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* modal  */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+} 
+
+.editar-perfil-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+#descricao{
+    width: 100%;
+    height: 60px;
+    padding-left: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    padding-top:10px;
+    resize: none;
+}
+
+
+
+.editar-perfil img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    border-radius: 50%; 
+    border: 4px solid #FFF;
+    object-fit: cover; 
+    width: 200px;
+    height: 200px; 
+    margin: 0 auto; 
+    float: left;
+    margin-bottom: 10px;
+}
+
+.editar-perfil {
+    background-color: #FFF;
+    padding: 20px;
+    width: 100%;
+}
+
+.editar-perfil h2 {
+    color: #22245B;
+    margin-bottom: 10px; 
+}
+
+.perfil-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+#centro-h2 {
+    text-align: center;
+}
+
+.perfil-text {
+    flex: 1;
+    margin-left: 20px; 
+}
+
+.perfil-text h1 {
+    font-size: 25px;
+    color: #22245B;
+    margin-bottom: 5px; 
+}
+
+.perfil-text p {
+    font-size: 18px;
+    color: #555; 
+}
+
+#botao-editar-conta,
+#botao-excluir-conta {
+    border-radius: 4px;
+    width: 120px;
+    height: 30px;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#botao-editar-conta {
+    display: inline-block;
+    background-color: #22245B;
+    margin-right: 10px; 
+}
+
+#botao-editar-conta:hover {
+    background-color: #0a0b3f;
+    margin-right: 10px; 
+    font-weight: bold;
+}
+
+#botao-excluir-conta {
+    display: inline-block;
+    background-color: #e92626e0;
+}
+
+#botao-excluir-conta:hover {
+    background-color: #a80000;
+    cursor: pointer;
+}
+
+.editar-perfil-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+#botao-fechar-editar-conta {
+    border-radius: 4px;
+    background-color: #e70c0ce0; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: 0;
+    cursor: pointer;
+}
+
+#botao-fechar-editar-conta:hover {
+    background-color: #c2050cd4; 
+}
+
+
+.file-upload-perfil {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.file-upload-perfil label {
+    width: 180px;
+    font-size: 14px;
+    height: 30px;
+}
+
+.inputfile-perfil {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile-perfil + label {
+    padding: 5px;
+    border: 2px solid #22245B;
+    background-color: #22245B;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.inputfile-perfil:focus + label,
+.inputfile-perfil + label:hover {
+    color: #FFF;
+    background-color: #0a0b3f;
+    font-weight: bold;
+}
+
+.inputfile-perfil + label i {
+    margin-right: 5px;
+}

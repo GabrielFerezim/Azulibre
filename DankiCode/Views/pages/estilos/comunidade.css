@@ -1,0 +1,110 @@
+.container-comunidade .titulo-comunidade {
+	font-size: 25px;
+	color: #22245B;
+}
+
+.comunidade {
+	width: 100%;
+}
+
+.container-comunidade-wraper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 40px 0;
+}
+
+.container-comunidade-single {
+	width: 32%;
+	margin-bottom: 10px;
+	margin-right: 1%;
+	background-color: white;
+	display: flex;
+	
+	border-radius: 10px;
+}
+
+.container-comunidade-single .img-comunidade-user-single {
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-comunidade-user-single img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-comunidade-single .info-comunidade-user-single {
+	width: 80%;
+	padding: 20px;
+}
+
+.info-comunidade-user-single h2 {
+	font-weight: bold;
+	font-size: 15px;
+	color: #454545;
+}
+
+.info-comunidade-user-single p {
+	font-size: 15px;
+	color: #454545;
+	opacity: 0.4;
+	margin: 10px 0;
+}
+
+.btn-solicitar-amizade .btn-solicitar {
+	background-color: rgb(255, 203, 70);
+	border-radius: 5px;
+	border: 1px solid #22245B;
+	padding: 3px;
+	color: #22245B;
+	display: inline-block;
+	font-size: 13px;
+	margin: 5px 0;
+	text-decoration: none;
+}
+
+.btn-solicitar-amizade .btn-solicitar:hover {
+	font-weight: bold;
+	background-color: rgb(255, 203, 70);
+	border-radius: 5px;
+	border: 1px solid #22245B;
+	padding: 3px;
+	color: #22245B;
+	display: inline-block;
+	font-size: 13px;
+	margin: 5px 0;
+	text-decoration: none;
+}
+
+.btn-solicitar-amizade .btn-pendente {
+	font-weight: bold;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid orange;
+	padding: 3px;
+	color: #ff8800;
+	display: inline-block;
+	font-size: 13px;
+	margin: 5px 0;
+	text-decoration: none;
+}
+
+.remover-amigo-link {
+	border: 1px solid #22245B;
+	font-size: 13px;
+    background-color: #e92626e0; 
+    color: #fff; 
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+.remover-amigo-link:hover {
+    background-color: #a80000; 
+	cursor: pointer;
+}
