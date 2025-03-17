@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "DankiCode\\Views\\": "./DankiCode/Views/",
+            "DankiCode\\Controllers\\": "./DankiCode/Controllers/", 
+            "DankiCode\\Models\\": "./DankiCode/Models/",
+            "DankiCode\\": "./DankiCode/"
+        }
+    },
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}

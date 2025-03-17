@@ -1,0 +1,24 @@
+{
+  "name": "azulibre-rede",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belleruivo/AzuLibre-Rede.git"
+  },
+  "author": "Isabelle Ruivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belleruivo/AzuLibre-Rede/issues"
+  },
+  "homepage": "https://github.com/belleruivo/AzuLibre-Rede#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lightbox2": "^2.11.4",
+    "socket.io": "^4.7.2"
+  }
+}
